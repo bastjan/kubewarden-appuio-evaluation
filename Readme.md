@@ -20,5 +20,6 @@ Allows nice error messages.
 
 No `kwctl` container yet. Annoying as fuck.
 
-Because of the current TinyGo limitations, both the usage of the encoding/json package and the usage of the official Kubernetes Go types defined under the k8s.io pacakges (e.g. k8s.io/api/core/v1) is not possible.
+> Because of the current TinyGo limitations, both the usage of the encoding/json package and the usage of the official Kubernetes Go types defined under the k8s.io packages (e.g. k8s.io/api/core/v1) is not possible.
 
+Kubewarden uses easyjson with `github.com/kubewarden/k8s-objects` instead.
