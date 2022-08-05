@@ -37,3 +37,5 @@ cargo generate --git https://github.com/kubewarden/rust-policy-template \
 Rust gives the better experience currently. You can use the "official" types. There is no friction in the toolchain.
 
 Loading the cluster-context is supported in Rust. Testing it is painful though currently. Only some types (ns, ingress, services) are supported. The API is not yet stable and a way to load all types (also CRDs) is coming soon.
+
+kwctl crashes when trying to load my rust wasm binary. (used for E2E, annotation for deployment, etc.)
